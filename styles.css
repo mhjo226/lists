@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+a:hover {color:blue;
+font-weight:bold;}
+
+[data-nav] {
+    color: red;
+    font-weight: bold;
+    font-size: small;
+}
+
+table {
+  font: 1em sans-serif;
+  border-spacing: 1;
+}
+
+
+table td, table th {
+  border: 1px solid black;
+  padding: 0.75em 0.75em 0.75em;
+}
+
+
+table thead th {
+  color: white;
+  background: red;
+}
+
+
+table tbody td + td {
+  text-align: center;
+}
+
+table tbody td:last-child {
+  text-align: right;
+}
+
+table tfoot th {
+  text-align: center;
+  border-top-width: 5px;
+  border-left: none;
+  border-bottom: none;
+}
+
+table th + td {
+  text-align: center;
+  border-top-width: 5px;
+  color: white;
+  background: black;
+}
+
+.with-currency[lang="en-US"] td:last-child::before {
+  content: '$';
+}
+
+.with-currency[lang="fr"] td:last-child::after {
+  content: ' €';
+}
+body {
+    background-color: #FFFFFF;
+    font-family: arial, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 14px;
+}
+nav {
+    background-color: #CAEBF2;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 35px;
+    width: 500px;
+    padding-right: 35px;
+    text-align: center;
+}
+h1 {
+    background-color: #E53131;
+    border-radius: 25px;
+    color: #000000;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: 'Covered By Your Grace', cursive;
+    font-style: normal;
+    font-weight: 400;
+    border-left-width: 0;
+    border-right-width: 0;
+    width: 400px;
+    font-size: xx-large;
+    text-align: center;
+}
+h2 {
+    background-color: #CAEBF2;
+    border-radius: 20px;
+    color: #000000;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: 'Covered By Your Grace', cursive;
+    font-style: normal;
+    font-weight: 400;
+    width: 400px;
+    font-size: x-large;
+    text-align: center;
+}
+
+footer {
+    background-color: #FF3B3F;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 200px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 125px;
+}
+.left {
+    border-radius: 125px;
+}
+.fluid {
+}
+.container-fluid {
+}
+.cent {
+}
+.button {
+    border-radius: 15px;
+}
+.text-center {
+}
+.b_logo {
+
+}
